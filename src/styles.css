@@ -146,11 +146,11 @@
     }
 
     /*2a card*/
-    .active{
+    .activeX{
       background: #4c8dce;
       color: #fff;
     }
-    .active .btnX{
+    .activeX .btnX{
       color: #fff;
       border: 2px solid #fff;
       width: 70%;
@@ -160,16 +160,16 @@
       font-size: 18px;
       transition: 0.3s;
     }
-    .active .btnX:hover{
+    .activeX .btnX:hover{
       background: #fff;
       color: #4c8dce;
     }
 
-    .active .nombre {
+    .activeX .nombre {
       color: #fff;
     }
 
-    .active .precio {
+    .activeX .precio {
       color: #fff;
     }
     /*3er card*/
