@@ -1,1 +1,197 @@
-/* You can add global styles to this file, and also import other style files */
+
+    .swiper-container {
+      width: 80%;
+      padding-top: 25px;
+      padding-bottom: 75px;
+      text-align: center;
+    }
+    .swiper-slide {
+      background-position: center;
+      background-size: cover;
+      height: 300px;
+      width: 250px !important;
+      background-color: black;
+      border-radius: 6px;
+      padding-top: 10px;
+    }
+
+    .swiper-title{
+      color: #328D4C;
+      background-color: #9B9EA1;
+      margin-bottom: 5px;
+      border-top-right-radius: 6px;
+      border-top-left-radius: 6px;
+    }
+
+
+    .imgBx{
+      height: 200px;
+    }
+
+    .imgBx img{
+      height: 200px;
+      width: 250px !important;
+    }
+
+    .swiper-details{
+      font-weight: 800;
+      color:#7C0B39;
+    }
+
+    .swiper-details h6{
+      font-weight: 800;
+      color:white;
+    }
+    .iconOk{
+      width: 20px;
+    }
+
+    /*servicios*/
+
+    .foto{
+      margin-bottom: 40px;
+    }
+
+    .imgService img{
+      border-radius: 3px;
+      width: 100%;
+      vertical-align: top;
+    }
+
+    .titulo{
+      margin-top: 5px;
+      margin-bottom: 40px;
+      font-size: 32px;
+      line-height: 32px;
+      font-weight: 300;
+    }
+
+    .azul{
+      color: #4facd3;
+    }
+
+    .naranja{
+      color: #ddb146;
+    }
+    .derecha{
+      text-align: right;
+    }
+
+    .text-center .parrafo{
+      line-height: 28px;
+      font-size:20px;
+    }
+
+    /*precios*/
+
+    .precios{
+      background: url('./assets/img/portfolio/grafi20.jpg'), #727171;
+      background-size: cover;
+      background-position: center ;
+      background-repeat: no-repeat;
+      padding: 90px 0;
+      margin-bottom: 50px;
+    }
+
+    .plan{
+      background: #fff;
+      text-align: center;
+      padding: 50px 0;
+      box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.35);
+    }
+    .nombre{
+      font-size: 32px;
+      line-height: 32px;
+      font-weight: 300;
+      margin-bottom: 30px;
+    }
+    .precio{
+      font-size: 48px;
+      font-weight: 300;
+      margin-bottom: 30px;
+    }
+
+    .caracteristicas{
+      list-style: none;
+      padding: 0px 20px;
+      margin-bottom: 50px;
+    }
+    .caracteristicas li{
+      font-size: 18px;
+      padding: 15px 0;
+      border-bottom: 1px solid #dedede;
+    }
+
+    .verde .btnX{
+      color: #86b773;
+      border: 2px solid #86b773;
+      width: 70%;
+      padding: 15px 0;
+      display: inline-block;
+      border-radius: 100px;
+      font-size: 18px;
+      transition: 0.3s;
+    }
+    .verde .btnX:hover{
+      background: #86b773;
+      color: white;
+    }
+
+    .verde .nombre {
+      color: #86b773;
+    }
+
+    .verde .precio {
+      color: #86b773;
+    }
+
+    /*2a card*/
+    .active{
+      background: #4c8dce;
+      color: #fff;
+    }
+    .active .btnX{
+      color: #fff;
+      border: 2px solid #fff;
+      width: 70%;
+      padding: 15px 0;
+      display: inline-block;
+      border-radius: 100px;
+      font-size: 18px;
+      transition: 0.3s;
+    }
+    .active .btnX:hover{
+      background: #fff;
+      color: #4c8dce;
+    }
+
+    .active .nombre {
+      color: #fff;
+    }
+
+    .active .precio {
+      color: #fff;
+    }
+    /*3er card*/
+    .naranja .btnX{
+      color: #ddb146;
+      border: 2px solid #ddb146;
+      width: 70%;
+      padding: 15px 0;
+      display: inline-block;
+      border-radius: 100px;
+      font-size: 18px;
+      transition: 0.3s;
+    }
+    .naranja .btnX:hover{
+      background: #ddb146;
+      color: #fff;
+    }
+
+    .naranja .nombre {
+      color: #ddb146;
+    }
+
+    .naranja .precio {
+      color: #ddb146;
+    }
