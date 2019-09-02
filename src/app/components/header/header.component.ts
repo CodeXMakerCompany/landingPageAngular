@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 
-declare const dialogo: any;
+declare const infoPerfil: any;
+declare const pedido: any;
 
 @Component({
   selector: 'app-header',
