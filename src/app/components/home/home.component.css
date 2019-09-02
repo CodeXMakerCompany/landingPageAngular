@@ -1,3 +1,7 @@
+.text_profile{
+  color: #417AD2;
+}
+
 .jumbotron{
   padding: 10px;
   width: 100%;
@@ -23,6 +27,106 @@
 .jumbotron:after{
   filter: blur(6px);
 }
+.icon_Animate{
+  border-radius: 15%;
+  transition: 0.3s;
+}
+.icon_Animate:hover{
+  width: 50%;
+  box-shadow: 2px 2px 2px 2px;
+  border-radius: 50%;
+}
+
+.textosA{
+  font-weight: 500;
+  font-size: 20px;
+  vertical-align: text-bottom;
+}
+
+.espacioDerecha{
+  padding-right: 10px;
+}
+
+.dot{
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.exp{
+  background-color: #C50AC5;
+  box-shadow: 0 0 6px #C50AC5;
+}
+.ava{
+  background-color: #3271AC;
+  box-shadow: 0 0 6px #3271AC;
+}
+.int{
+  background-color: #81A41C;
+  box-shadow: 0 0 6px #81A41C;
+}
+.new{
+  background-color: #C7990F;
+  box-shadow: 0 0 6px #C7990F;
+}
+.fund{
+  background-color: #0A847E;
+  box-shadow: 0 0 6px #0A847E;
+}
+
+/*Zoom Images*/
+.zoomA {
+  max-width: 100%;
+    transition: all 0.3s;
+    display: block;
+    width: 100%;
+    height: auto;
+    transform: scale(1);
+}
+
+.zoomB {
+  max-width: 100%;
+    transition: all 0.3s;
+    display: block;
+    width: 100%;
+    height: auto;
+    transform: scale(1);
+}
+
+.zoomB:hover {
+  padding-right: 40px;
+  transform: scale(2.5);
+  z-index: 1; /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.zoomA:hover {
+  padding-left: 50px;
+  transform: scale(2.5);
+  z-index: 1; /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.contenedorBtns a{
+  border-radius: 4px;
+  border: 2px solid #3D4146;
+  background: #EDEFF1;
+  color: #3D4146;
+  padding: 8px 0;
+  font-weight: 600;
+  width: 150px;
+  display: inline-block;
+  text-align: center;
+  margin: 10px 10px;
+  transition: 0.3s;
+}
+
+.contenedorBtns a:hover{
+  box-shadow: 0 4px 5px #3D4146;
+  text-decoration: none;
+  background: #3D4146;
+  color: #6ab04c;
+}
+
+  
 
 @keyframes animate {
   0%{

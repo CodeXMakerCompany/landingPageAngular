@@ -8,8 +8,8 @@
     .swiper-slide {
       background-position: center;
       background-size: cover;
-      height: 300px;
-      width: 250px !important;
+      height: 340px;
+      width: 300px !important;
       background-color: black;
       border-radius: 6px;
       padding-top: 10px;
@@ -30,12 +30,12 @@
 
     .imgBx img{
       height: 200px;
-      width: 250px !important;
+      width: 200px !important;
     }
 
     .swiper-details{
       font-weight: 800;
-      color:#7C0B39;
+      color:white;
     }
 
     .swiper-details h6{
@@ -45,11 +45,29 @@
     .iconOk{
       width: 20px;
     }
+    
+    /*dots*/
+    .minimizeDot{
+        height: 18px !important;
+       width: 18px !important;
+    }
+    .txtCard{
+      color: white;
+      font-weight: 700;
+      font-size: 20px;
+      vertical-align: text-bottom;
+    }
 
     /*servicios*/
 
     .foto{
       margin-bottom: 40px;
+    }
+
+    .foto img{
+      border-color: #3A3E44;
+      border-width: 10px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 
     .imgService img{
@@ -195,3 +213,4 @@
     .naranja .precio {
       color: #ddb146;
     }
+  

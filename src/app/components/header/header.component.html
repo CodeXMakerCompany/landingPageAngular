@@ -11,7 +11,13 @@
       <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#portafolio">Portafolio</a>
+      <a class="nav-link"  href="#portafolio" id="link1">Portafolio</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link"  href="#skills" id="link2">Skills</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link"  href="#precios" id="link3">Costos</a>
     </li>
   </ul>
 
@@ -26,14 +32,11 @@
             <span class="text2"><fa name="cog" animation="spin"></fa>Codexmaker<fa name="cog" animation="spin"></fa></span>
 
             <div class="contenedor-btns">
-              <a class="info"><fa name="info"> </fa> Info</a>
-              <a href="#" id="comprar"><fa name="shopping-cart"></fa> Hacer pedido </a>
+              <a (click)="onClick()" class="info"><fa name="info"> </fa> Info</a>
+              <a (click)="onClick2()" id="comprar"><fa name="shopping-cart"></fa> Hacer pedido </a>
             </div>
 
           </div>
-
-
-
-
     </div>
 </div>
+<div class="clearfix"></div>
